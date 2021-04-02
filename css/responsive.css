@@ -1,0 +1,646 @@
+/* extra small device */
+@media(max-width: 575px){
+    .navbar .navbar-toggler{
+        margin-left: auto;
+        margin-right: 10px;
+        color: #fff;
+        border: 1px solid #fff;
+    }
+    .navbar .navbar-nav{
+     
+        text-align: center;
+    }
+    .navbar .navbar-brand img{
+        transform: skewX(0deg);
+    }
+    .navbar .navbar-brand{
+        position: static;
+        transform: skewX(0deg);
+        margin-left: 20px;
+        padding: 0;
+    }
+    .navbar .navbar-nav .nav-item{
+        background: rgba(226, 62, 56, 0.8);
+    }
+    /* nav part ends */
+
+    #banner .banner-item{
+        padding-top: 170px;
+        padding-bottom: 90px;
+    }
+    #banner .banner-text::before{
+        display: none;
+    }
+    #banner .banner-text::after{
+        display: none;
+    }
+    #banner .banner-text h3::after{
+        display: none;
+    }
+    #banner .banner-text h3::before{
+        display: none;
+    }
+    #banner .banner-text p::before{
+        display: none;
+    }
+    #banner .banner-text p::after{
+        display: none;
+    }
+    #banner .banner-text h3{
+        font-size: 25px;
+    }
+    #banner .banner-text h1{
+        font-size: 40px;
+    }
+    #banner .banner-text{
+        padding-top: 60px;
+    }
+
+    /* banner part ends */
+    #about {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    #about .about-text p:last-of-type{
+        padding-bottom: 30px;
+    }
+    /* about ends */
+
+    #classes .classes-menu .nav-pills .nav-link{
+	    width: 179px;
+        margin: 1px;
+        line-height: 40px;
+    }
+    #classes .classes-item ul li{
+        width: 240px;
+        height: 190px;
+        margin: 15px;
+    }
+    /* clasess ends */
+
+    .slick-slide img{
+        margin-left: 30px;
+    }
+    /* slick ends */
+
+    footer .footer-logo{
+        text-align: center;
+    }
+    #footer,.twitter-feed,.footer-gallery,.footer-contact h4{
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    .footer-contact h4{
+        padding-top: 10px;
+    }
+    .footer-contact nav{
+        text-align: center;
+        margin-top: 0;
+    }
+    footer .main-footer::before{
+        content: '';
+        width: 100%;
+        height: 100%;
+        border-bottom: 1px solid #f1f1f1;
+        position: absolute;
+        bottom: -12px;
+        left: 0;
+        z-index: -1;
+    }
+    .copyright{
+        text-align: center;
+        padding-top: 10px;
+    }
+    /* footer ends */
+
+}
+/* extra small device */
+
+/* small device starts */
+@media (min-width: 576px) and (max-width: 767px){
+    .navbar .navbar-toggler{
+        margin-left: auto;
+        margin-right: 10px;
+        color: #fff;
+        border: 1px solid #fff;
+    }
+    .navbar .navbar-nav{
+     
+        text-align: center;
+    }
+    .navbar .navbar-brand img{
+        transform: skewX(0deg);
+    }
+    .navbar .navbar-brand{
+        position: static;
+        transform: skewX(0deg);
+        padding: 0;
+    }
+    .navbar .navbar-nav .nav-item{
+        background: rgba(226, 62, 56, 0.8);
+    }
+    /* navbar ends */
+
+    #banner .banner-item{
+        padding-top: 200px;
+        padding-bottom: 90px;
+    }
+    #banner .banner-text::before{
+        display: none;
+    }
+    #banner .banner-text::after{
+        display: none;
+    }
+    #banner .banner-text h3::after{
+        display: none;
+    }
+    #banner .banner-text h3::before{
+        display: none;
+    }
+    #banner .banner-text p::before{
+        display: none;
+    }
+    #banner .banner-text p::after{
+        display: none;
+    }
+    #banner .banner-text h3{
+        font-size: 25px;
+    }
+    #banner .banner-text h1{
+        font-size: 40px;
+    }
+    #banner .banner-text{
+        padding-top: 60px;
+    }
+    /* banner part ends */
+    #about {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    #about .about-text p:last-of-type{
+        padding-bottom: 30px;
+    }
+    /* about ends */
+
+    #classes .classes-menu .nav-pills .nav-link{
+	    width: 168px;
+        margin: 1px;
+        line-height: 40px;
+    }
+    #classes .classes-item ul li{
+        width: 240px;
+        height: 190px;
+    }
+    /* clasess ends */
+
+    .slick-slide img{
+        margin-left: 21px;
+    }
+    /* slick ends */
+
+    footer .footer-logo{
+        text-align: center;
+    }
+    #footer,.twitter-feed,.footer-gallery,.footer-contact h4{
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    .footer-contact h4{
+        padding-top: 10px;
+    }
+    .footer-contact nav{
+        text-align: center;
+        margin-top: 0;
+    }
+    footer .main-footer::before{
+        content: '';
+        width: 100%;
+        height: 100%;
+        border-bottom: 1px solid #f1f1f1;
+        position: absolute;
+        bottom: -12px;
+        left: 0;
+        z-index: -1;
+    }
+    .copyright{
+        text-align: center;
+        padding-top: 10px;
+    }
+    /* footer ends */
+}
+/* small device ends */
+
+/* Medium device starts */
+@media (min-width: 768px) and (max-width: 991px){
+    .navbar .navbar-toggler{
+        margin-left: auto;
+        margin-right: 10px;
+        color: #fff;
+        border: 1px solid #fff;
+    }
+    .navbar .navbar-nav{
+     
+        text-align: center;
+    }
+    .navbar .navbar-brand{
+        position: static;
+        padding: 5px;
+    }
+    .navbar .navbar-nav .nav-item{
+        background: rgba(226, 62, 56, 0.8);
+    }
+    /* navbar ends */
+
+    #banner .banner-text::before{
+        content: '';
+        width: 3px;
+        height: 189px;
+        background: #e23e38;
+        position: absolute;
+        top: 20px;
+        left: 77px;
+    }
+    #banner .banner-text::after{
+        content: '';
+        width: 3px;
+        height: 189px;
+        background: #e23e38;
+        position: absolute;
+        top: 20px;
+        right: 77px;
+    }
+    #banner .banner-text h3::before{
+        content: '';
+        width: 143px;
+        height: 3px;
+        background: #e23e38;
+        position: absolute;
+        top: 18px;
+        left: 77px;
+    }
+    
+    #banner .banner-text h3::after{
+        content: '';
+        width: 95px;
+        height: 3px;
+        background: #e23e38;
+        position: absolute;
+        top: 18px;
+        right: 77px;
+    }
+    #banner .banner-text p{
+        width: 400px;
+        margin: 0 auto;
+    }
+    #banner .banner-text p::before{
+        content: '';
+        width: 60px;
+        height: 3px;
+        background: #e23e38;
+        position: absolute;
+        bottom: -29px;
+        left: -68px;
+    }
+    
+    #banner .banner-text p::after{
+        content: '';
+        width: 31px;
+        height: 3px;
+        background: #e23e38;
+        position: absolute;
+        bottom: -29px;
+        right: -68px;
+    }
+    /* banner part ends */
+    #about {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    #about .about-text p:last-of-type{
+        padding-bottom: 30px;
+    }
+    /* about ends */
+
+    #classes .classes-menu .nav-pills .nav-link{
+	    width: 168px;
+        margin: 1px;
+        line-height: 40px;
+    }
+    #classes .classes-menu .nav-pills #friday-tab{
+        margin-left: 172px;
+    }
+    #classes .classes-item ul li{
+        width: 160px;
+        height: 190px;
+    }
+    #classes .classes-item ul #mr02{
+        margin-left: 175px;
+    }
+    /* clasess ends */
+
+    .slick-slide img{
+        margin-left: 9px;
+    }
+    /* slick ends */
+
+    footer .footer-logo{
+        text-align: center;
+    }
+    #footer,.twitter-feed,.footer-gallery,.footer-contact h4{
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    .footer-contact h4{
+        padding-top: 10px;
+    }
+    .footer-contact nav{
+        text-align: center;
+        margin-top: 0;
+    }
+    footer .main-footer::before{
+        content: '';
+        width: 100%;
+        height: 100%;
+        border-bottom: 1px solid #f1f1f1;
+        position: absolute;
+        bottom: -12px;
+        left: 0;
+        z-index: -1;
+    }
+    .copyright{
+        text-align: center;
+        padding-top: 10px;
+    }
+    /* footer ends */
+}
+/* Medium device ends */
+
+/* Large device starts */
+@media (min-width: 992px) and (max-width: 1199px){
+    #banner .banner-text::before{
+        content: '';
+        width: 3px;
+        height: 209px;
+        background: #e23e38;
+        position: absolute;
+        top: 20px;
+        left: -26px;
+    }
+    
+    #banner .banner-text::after{
+        content: '';
+        width: 3px;
+        height: 209px;
+        background: #e23e38;
+        position: absolute;
+        top: 20px;
+        right: -34px;
+    }
+    #banner .banner-text h3::before{
+        content: '';
+        width: 143px;
+        height: 3px;
+        background: #e23e38;
+        position: absolute;
+        top: 18px;
+        left: -26px;
+    }
+    
+    #banner .banner-text h3::after{
+        content: '';
+        width: 95px;
+        height: 3px;
+        background: #e23e38;
+        position: absolute;
+        top: 18px;
+        right: -34px;
+    }
+    #banner .banner-text p::before{
+        content: '';
+        width: 37px;
+        height: 3px;
+        background: #e23e38;
+        position: absolute;
+        bottom: -47px;
+        left: -26px;
+    }
+    
+    #banner .banner-text p::after{
+        content: '';
+        width: 16px;
+        height: 3px;
+        background: #e23e38;
+        position: absolute;
+        bottom: -47px;
+        right: -34px;
+    }
+    /* bannner ends */
+
+    #about .about-video{
+        margin-top: 70px;
+    }
+    /* about ends */
+
+    #classes .classes-menu .nav-pills .nav-link{
+	    width: 168px;
+        margin: 1px;
+        line-height: 40px;
+    }
+    #classes .classes-menu .nav-pills #monday-tab{
+        margin-left: 35px;
+    }
+    #classes .classes-menu .nav-pills #saturday-tab{
+        margin-left: 375px;
+    }
+    #classes .classes-item ul li{
+        width: 175px;
+        height: 190px;
+    }
+    /* clasess ends */
+
+    .slick-slide img{
+        margin-left: 10px;
+    }
+    footer .footer-contact nav a{
+        margin-right: 3px;
+    }
+    /* footer ends */
+}
+/* Large device ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media(max-width:575px){
+    .heading h3{
+        font-size: 28px;
+    }
+    .navbar .navbar-brand{
+        transform: skewX(0deg);
+        margin-left: 10px;
+        padding: 0;
+    }
+    .navbar .navbar-brand img{
+        transform: skewX(0deg);
+        padding: 0;
+    }
+    .navbar .navbar-brand{
+        position: static;
+    }
+    .navbar .navbar-nav{
+        background: #e23e38;
+        text-align: center;
+    }
+    .navbar-light .navbar-toggler{
+        margin-left: auto;
+        margin-right: 10px;
+        border: 1px solid #fff;
+    }
+    .navbar-light .navbar-toggler span{
+        color: #fff;
+    }
+    #banner .banner-item {
+        padding-top: 170px;
+        padding-bottom: 90px;
+    }
+    #banner .banner-text h3{
+        font-size: 25px;
+    }
+    #banner .banner-text h3::before{
+        display: none;
+    }
+    #banner .banner-text h3::after{
+        display: none;
+    }
+    #banner .banner-text h1{
+        font-size: 45px;
+    }
+    #banner .banner-text p::before{
+        display: none;
+    }
+    #banner .banner-text p::after{
+        display: none;
+    }
+    #about .about-text p:last-of-type{
+        padding-bottom: 30px;
+    }
+} */
+/* extra small device */
+
+/* -- small device -- */
+/* @media (min-width: 576px) and (max-width: 767px){
+    .heading h3{
+        font-size: 28px;
+    }
+    .navbar .navbar-brand{
+        transform: skewX(0deg);
+        padding: 0;
+    }
+    .navbar .navbar-brand img{
+        transform: skewX(0deg);
+        padding: 0;
+    }
+    .navbar .navbar-brand{
+        position: static;
+    }
+    .navbar .navbar-nav{
+        background: #e23e38;
+        text-align: center;
+    }
+    .navbar-light .navbar-toggler{
+        margin-left: auto;
+        margin-right: 10px;
+        border: 1px solid #fff;
+    }
+    .navbar-light .navbar-toggler span{
+        color: #fff;
+    }
+    #banner .banner-item{
+        padding-top: 200px;
+        padding-bottom: 90px;
+    }
+    #banner .banner-text h3{
+        font-size: 25px;
+    }
+    #banner .banner-text h3::before{
+        display: none;
+    }
+    #banner .banner-text h3::after{
+        display: none;
+    }
+    #banner .banner-text h1{
+        font-size: 45px;
+    }
+    #banner .banner-text p::before{
+        display: none;
+    }
+    #banner .banner-text p::after{
+        display: none;
+    }
+}
+/* -- small device -- */
+
+/* -- medium device -- */
+@media (min-width: 768px) and (max-width: 991px){
+    /* .heading h3{
+        font-size: 28px;
+    }
+    .navbar .navbar-brand{
+        position: static;
+    }
+    .navbar .navbar-nav{
+        background: #e23e38;
+        text-align: center;
+    }
+    .navbar-light .navbar-toggler{
+        margin-left: auto;
+        margin-right: 10px;
+        border: 1px solid #fff;
+    }
+    .navbar-light .navbar-toggler span{
+        color: #fff;
+    }
+    #banner .banner-item{
+        padding-top: 200px;
+        padding-bottom: 90px;
+    }
+    #banner .banner-text h3{
+        font-size: 25px;
+    }
+    #banner .banner-text h3::before{
+        display: none;
+    }
+    #banner .banner-text h3::after{
+        display: none;
+    }
+    #banner .banner-text h1{
+        font-size: 45px;
+    }
+    #banner .banner-text p::before{
+        display: none;
+    }
+    #banner .banner-text p::after{
+        display: none;
+    } */
+} 
+/* -- medium device -- */
+
+
